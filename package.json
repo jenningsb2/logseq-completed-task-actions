@@ -1,7 +1,7 @@
 {
-  "name": "logseq-starter-plugin",
+  "name": "logseq-completed-task-actions",
   "version": "1.0",
-  "description": "Starter Plugin",
+  "description": "Logseq Completed Task Actions Plugin",
   "main": "dist/index.html",
   "targets": {
     "main": false
@@ -11,14 +11,15 @@
     "build": "parcel build --no-source-maps index.html --public-url ./"
   },
   "keywords": [],
-  "author": "Aryan Sawhney",
+  "author": "Bailey Jennings",
   "license": "MIT",
   "dependencies": {
-    "@logseq/libs": "0.0.1-alpha.34"
+    "@logseq/libs": "^0.0.10",
+    "logseq-dateutils": "^0.0.26"
   },
   "logseq": {
-    "id": "logseq-starter-plugin",
-    "title": "logseq-starter-plugin",
+    "id": "logseq-completed-task-actions",
+    "title": "logseq-completed-task-actions",
     "icon": "./icon.png"
   },
   "devDependencies": {
